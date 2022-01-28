@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0px 2px 12px 0px black;
+    margin-top: 10px;
+    transition: 0.3s;
+    font-size: 0;
+}
+
+.card:hover{
+    box-shadow: 0 6px 24px 0  black;
+}
+
+.text-feild #result{
+    
+    width: 339px;
+    height: 100px;
+    font-size: 24px;
+    text-align: right;
+    padding: 2px;
+    letter-spacing: 2px;
+}
+
+.btn{
+    width: 87px;
+    height: 70px;
+    font-weight: bolder;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+.btn-style{
+    background-color: violet;
+    color: white;
+}
+
+.btn-y{
+    background-color: rgb(212, 178, 25);
+    color: white;
+}
+
+.btn:hover{
+    background-color: darksalmon;
+}
